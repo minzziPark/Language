@@ -46,3 +46,5 @@ type 함수를 이용하자
 >>> type(d)
 # <class 'bool'>
 ```
+
+본인은 파이썬 IDLE shell에 코드를 작성하였지만 editor 에서 결과를 확인하고 싶다면 print(type(a))와 같은 식으로 print함수를 꼭 사용해야한다. 
