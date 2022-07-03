@@ -27,3 +27,22 @@ bool : 참, 거짓
  b = 'abc' # 문자열 선언 방법 1
  c = "def" # 문자열 선언 방법 2
  ```
+- __파이썬에서 변수는 어떻게 확인할까?__
+type 함수를 이용하자
+```
+>>> a = 10
+>>> type(a)
+# <class 'int'>
+
+>>> b = 0.1
+>>> type(b)
+# <class 'float'>
+
+>>> c = 'abc'
+>>> type(c)
+# <class 'str'>
+
+>>> d = a == b # a와 b가 같은 지 아닌 지의 대한 true or false 값을 d에 넣어줌
+>>> type(d)
+# <class 'bool'>
+```
